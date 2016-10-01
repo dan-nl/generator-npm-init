@@ -1,0 +1,34 @@
+{
+  "name": "generator-npm-init",
+  "version": "0.0.0",
+  "description": "yeoman generator that runs `npm init` in the target project",
+  "author": "dan entous",
+  "license": "MIT",
+  "main": "app/index.js",
+  "files": [
+    "app"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan-nl/generator-npm-init.git"
+  },
+  "keywords": [
+    "npm",
+    "npm init",
+    "yeoman-generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/dan-nl/generator-npm-init/issues"
+  },
+  "homepage": "https://github.com/dan-nl/generator-npm-init#readme",
+  "dependencies": {
+    "yeoman-generator": "0.24.1"
+  },
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "3.7.0",
+    "eslint-config-dan-nl": "git://github.com/dan-nl/eslint-config-dan-nl.git"
+  }
+}
