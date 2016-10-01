@@ -3,6 +3,6 @@
 var generators = require( 'yeoman-generator' );
 var generator = {};
 
-generator.configuring = require( './configuring' );
+generator.initializing = require( './initializing' );
 
 module.exports = generators.Base.extend( generator );
