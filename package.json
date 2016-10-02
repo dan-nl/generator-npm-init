@@ -1,6 +1,6 @@
 {
   "name": "generator-npm-init",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "yeoman generator that runs `npm init` in the target project",
   "author": "dan entous",
   "license": "MIT",
