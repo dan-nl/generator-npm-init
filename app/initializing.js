@@ -1,4 +1,4 @@
-/* eslint no-invalid-this: off */
+/* eslint no-invalid-this: off, no-sync: off */
 
 'use strict';
 
