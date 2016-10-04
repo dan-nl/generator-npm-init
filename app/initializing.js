@@ -1,12 +1,18 @@
-/* eslint no-invalid-this: off, no-sync: off */
+/* eslint no-invalid-this: off */
 
 'use strict';
 
 /**
+ * module dependencies
+ */
+var PromptAnswers = require( 'yeoman-prompting-helpers' ).PromptAnswers;
+
+/**
+ * @property {Base} this
  * @returns {undefined}
  */
 function initializing() {
-  this.spawnCommandSync( 'npm', [ 'init' ] );
+  this.options.PromptAnswers = this.options.PromptAnswers || new PromptAnswers();
 }
 
 module.exports = initializing;

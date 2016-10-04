@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/dan-nl/generator-npm-init#readme",
   "dependencies": {
-    "yeoman-generator": "0.24.1"
+    "yeoman-generator": "0.24.1",
+    "yeoman-helpers": "git://github.com/dan-nl/yeoman-helpers.git",
+    "yeoman-prompting-helpers": "1.2.4"
   },
   "scripts": {
     "eslint": "eslint ."
