@@ -24,13 +24,13 @@
   "dependencies": {
     "yeoman-generator": "0.24.1",
     "yeoman-helpers": "git://github.com/dan-nl/yeoman-helpers.git",
-    "yeoman-prompting-helpers": "1.2.4"
+    "yeoman-prompting-helpers": "1.2.7"
   },
   "scripts": {
     "eslint": "eslint ."
   },
   "devDependencies": {
-    "eslint": "3.7.0",
+    "eslint": "3.7.1",
     "eslint-config-dan-nl": "git://github.com/dan-nl/eslint-config-dan-nl.git"
   }
 }
