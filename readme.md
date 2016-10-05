@@ -5,12 +5,12 @@
 
 ## installation
 ```bash
-npm install -g dan-nl/generator-coveralls
+npm install -g dan-nl/generator-npm-init
 ```
 
 ## use
 ```bash
-yo coveralls
+yo npm-init
 ```
 
 ## license
